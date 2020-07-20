@@ -140,7 +140,9 @@ Não permite gravação de um mesmo registro de CRM. A lista mostra os campos No
 
 - Criar uma lista de "Cards" na listagem de registros.
 
-# REQUEST API REST:
+# Request API REST:
+
+- Api está configurada para a porta 3333.
 
 | Name     | Method | Parameters                                        | Description                   |
 | -------- | ------ | ------------------------------------------------- | ----------------------------- |
@@ -148,4 +150,5 @@ Não permite gravação de um mesmo registro de CRM. A lista mostra os campos No
 | /doctors | POST   | body { name: string, crm: string, crmuf: string } | Cadastra médico.              |
 
 - Exemplo:
+
   https://localhost:3333/doctors
