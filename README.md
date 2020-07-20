@@ -129,7 +129,7 @@ yarn android
 
 # Limitações:
 
-Esta aplicação, por enquanto, apenas Cadastra e Lista os médicos que tem cadastrado.
+Esta aplicação, por enquanto, apenas **cadastra** e **lista** os médicos.
 Não permite gravação de um mesmo registro de CRM. A lista mostra os campos Nome e CRM.
 
 # Próximas Features:
@@ -146,3 +146,6 @@ Não permite gravação de um mesmo registro de CRM. A lista mostra os campos No
 | -------- | ------ | ------------------------------------------------- | ----------------------------- |
 | /doctors | GET    | -                                                 | Lista os médicos cadastrados. |
 | /doctors | POST   | body { name: string, crm: string, crmuf: string } | Cadastra médico.              |
+
+- Exemplo:
+  https://localhost:3333/doctors
