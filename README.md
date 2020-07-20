@@ -138,7 +138,7 @@ Não permite gravação de um mesmo registro de CRM. A lista mostra os campos No
 
 - Criar a tabela de pacientes e permitir cadastro, edição e exclusão.
 
-- Criar lista de "Cards" na listagem de registros.
+- Criar uma lista de "Cards" na listagem de registros.
 
 # REQUEST API REST:
 
