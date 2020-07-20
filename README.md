@@ -5,7 +5,6 @@ A proposta dessa aplicação é controlar o cadatro de cliente e de pacientes, i
 aplicativo mobile, sendo o NODE como uma API fornecendo e recebendo dados da aplicação mobile.
 A persistência dos dados está configurado para o POSTGRESQL com migrations e TYPEORM.
 Ambiente de banco de dados usando Docker.
-Projeto para aprendizado e familiarização do NODE.js com React Native.
 
 # Instruções de execução no ubuntu:
 
